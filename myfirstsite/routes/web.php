@@ -12,7 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	$tasks = [
+		'Go to the store',
+		'Go to the market',
+		'Go to the work',
+		'Go to the concert',
+	];
+
+    return view('welcome', [
+    	'tasks' => $tasks,
+    	'foo' => 'foobar'
+    ]);
 });
 
 Route::get('/about', function () {
