@@ -1,7 +1,10 @@
 @extends('layout')
 @section ('title')
-    My First Website
+    About Us
 @endsection
 @section ('content')
-    <h1>My First Website</h1>
+	<h1>About Us</h1>
+	<p>
+		lorem ipsum
+	</p>
 @endsection
