@@ -11,12 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome')->with([
-    	'foo' => 'bar',
-    	'tasks' => ['some task']
-	]);
-});
+Route::get('/', 'PagesController@home');
 
 Route::get('/about', function () {
     return view('about');
