@@ -13,4 +13,14 @@ class PagesController extends Controller
     		'foo' => 'bar'
 		]);
     }
+
+    public function about()
+    {
+    	return view('about');
+    }
+
+    public function contact()
+    {
+    	return view('contact');
+    }
 }
