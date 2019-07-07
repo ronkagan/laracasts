@@ -13,9 +13,11 @@
 </head>
 <body>
 	<header>
-		<h1>
-			<?= $greeting; ?>
-		</h1>
+		<ul>
+			<?php foreach ($names as $name) : ?>
+				<li></li>
+			<?php endforeach; ?>
+		</ul>
 	</header>
 </body>
 </html>

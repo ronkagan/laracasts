@@ -1,5 +1,11 @@
 <?php
 
-$greeting = 'Hello, World';
+$names = [
+	'Ron',
+	'Sayulita',
+	'Katey'
+];
 
-require 'index.view.php';
+foreach ($name as $name) {
+	echo $name; . ', ';
+}
