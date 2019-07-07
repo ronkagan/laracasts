@@ -1,11 +1,12 @@
 <?php
 
 $names = [
-	'Ron',
-	'Sayulita',
-	'Katey'
+	'Penny',
+	'Layla',
+	'Desmond',
+	'Rocky'
 ];
 
-foreach ($name as $name) {
-	echo $name; . ', ';
+foreach ($names as $name) {
+	echo $name . ', ';
 }
